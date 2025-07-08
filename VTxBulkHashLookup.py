@@ -11,7 +11,7 @@ from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, 
 from reportlab.lib.styles import getSampleStyleSheet
 
 # Your VirusTotal API Key 
-API_KEY = "YOUR_API_KEY"
+API_KEY = "3c76fde35f99c180e9624608f8efdbda43396107f09cd5263907beec292e561c"
 
 def detect_hash_type(hash_value):
     hash_length = len(hash_value)
